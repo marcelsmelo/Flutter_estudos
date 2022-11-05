@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:login_provider_example/home_screen.dart';
-import 'package:login_provider_example/login.dart';
-import 'package:login_provider_example/login_controller.dart';
+import 'package:login_provider_example/models/login.dart';
+import 'package:login_provider_example/controllers/login_controller.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {

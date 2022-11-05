@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:login_provider_example/login.dart';
+import 'package:login_provider_example/models/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginController extends ChangeNotifier {
