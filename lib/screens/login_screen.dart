@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:login_provider_example/formatters/cpf_formatter.dart';
 import 'package:login_provider_example/models/login.dart';
 import 'package:login_provider_example/controllers/login_controller.dart';
 import 'package:provider/provider.dart';
@@ -29,6 +31,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   TextField(
+                    inputFormatters: [
+                      FilteringTextInputFormatter.digitsOnly,
+                      CpfInputFormatter()
+                    ],
                     decoration: InputDecoration(
                         labelText: "Username",
                         prefixIcon: Icon(Icons.account_circle),

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:login_provider_example/screens/home_screen.dart';
 import 'package:login_provider_example/controllers/login_controller.dart';
-import 'package:login_provider_example/login_screen.dart';
+import 'package:login_provider_example/screens/login_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
